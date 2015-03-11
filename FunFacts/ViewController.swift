@@ -11,12 +11,13 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var funFactLabel: UILabel!
     
-    let factsArray = ["In Australia, there are ten times more camels than koalas.","A study revealed that standing in class instead of sitting improved students test scores by 20%."]
+    let factBook = FactBook()
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        funFactLabel.text = factsArray[0]
+        funFactLabel.text = factBook.factsArray[0]
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,7 +26,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showFunFact() {
-        funFactLabel.text = factsArray[1]
+        funFactLabel.text = factBook.factsArray[1]
     }
 
 }
