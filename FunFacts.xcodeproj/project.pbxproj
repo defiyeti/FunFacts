@@ -26,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E75298631AAF800C0031C105 /* Scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Scratchpad.playground; path = FunFacts/Scratchpad.playground; sourceTree = "<group>"; };
 		E7754B331AAF7EC90057B195 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7754B371AAF7EC90057B195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7754B381AAF7EC90057B195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,10 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E75298641AAF80340031C105 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				E75298631AAF800C0031C105 /* Scratchpad.playground */,
+			);
+			name = Playgrounds;
+			sourceTree = "<group>";
+		};
 		E7754B2A1AAF7EC90057B195 = {
 			isa = PBXGroup;
 			children = (
 				E7754B351AAF7EC90057B195 /* FunFacts */,
+				E75298641AAF80340031C105 /* Playgrounds */,
 				E7754B4B1AAF7EC90057B195 /* FunFactsTests */,
 				E7754B341AAF7EC90057B195 /* Products */,
 			);
@@ -405,6 +415,7 @@
 				E7754B541AAF7EC90057B195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7754B551AAF7EC90057B195 /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +424,7 @@
 				E7754B571AAF7EC90057B195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
